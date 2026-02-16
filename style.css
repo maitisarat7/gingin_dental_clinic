@@ -1,0 +1,209 @@
+ body {
+     font-family: "Varela Round", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+a{
+    color: #006ca6;
+}
+ .container {
+     max-width: 1170px;
+     margin: 0 auto;
+     /* padding: 0 15px; */
+ }
+
+ /* Top Header */
+ .top-header {
+     padding: 8px 0;
+ }
+
+ .logo {
+     height: 84px;
+ }
+
+ .call-text {
+     font-size: 24px;
+     color: #5a6670;
+
+ }
+
+ .call-number {
+     font-size: 28px;
+     /* font-weight: 600; */
+     color: #006ca6;
+     text-decoration: none;
+ }
+.call-number:hover {
+    text-decoration: underline;
+    }
+ /* Navbar */
+ .main-nav {
+     background: #07a9cf;
+ }
+
+ .main-nav .nav-link {
+     color: #fff;
+     font-weight: 500;
+     padding: 12px 18px;
+ }
+
+ .main-nav .nav-link:hover {
+     color: #000;
+ }
+
+ .social-icons a {
+     color: #000;
+     margin-left: 15px;
+     font-size: 18px;
+ }
+
+ .hero {
+     min-height: 400px;
+     background: url('./img/banner.webp') no-repeat center center / cover;
+ }
+
+ .hero-box {
+     background: rgba(0, 174, 216, 0.85);
+     color: #fff;
+     padding: 24px;
+     max-width: 400px;
+
+ }
+
+ .hero-box h5 {
+     font-size: 1rem;
+     line-height: 1.5;
+     font-weight: 700;
+     font-family: "Noto Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+
+ }
+
+ .hero-box p {
+     font-size: 1rem;
+     line-height: 1.5;
+     font-weight: 400;
+     font-family: "Noto Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+ }
+
+ /* Content */
+ .content {
+     padding: 40px 0 0;
+ }
+
+ .content p {
+     font-family: "Varela Round", "Varela Round Fallback";
+     font-style: normal;
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 1.4;
+     text-transform: none;
+ }
+
+ .section-title {
+     color: #0b6fbf;
+     font-weight: 600;
+     font-size: 18px;
+     margin-bottom: 10px;
+     text-transform: uppercase;
+ }
+
+ .custom-content p {
+     font-family: "Noto Sans", "Noto Sans Fallback";
+     font-style: normal;
+     font-size: 13px;
+     font-weight: 400;
+     line-height: 1.5;
+     text-transform: none;
+ }
+
+ .services-side .list-group-item:hover .custom-contentparagraph {
+     text-decoration: underline;
+ }
+  .services-side .list-group-item:last-child{
+   min-height: 180px;
+ }
+.services-side{
+    border-radius: 0;
+}
+ .services-side .list-group-item {
+     background: #59c7e6;
+     color: #0b6fbf;
+     font-size: 30px;
+     padding: 13px 20px;
+     border: none;
+     margin-bottom: 6px;
+     font-weight: 500;
+ }
+
+ .services-side .list-group-item:hover {
+     background: #45b8da;
+     color: #084f87;
+ }
+
+ .cta-bar {
+     background: #55c7e6;
+     padding: 22px 0;
+ }
+
+ .cta-bar p {
+     color: #fff;
+     font-size: 18px;
+     font-weight: 500;
+ }
+
+ .cta-phone {
+     color: #0b5ea8;
+     font-weight: 700;
+     text-decoration: none;
+ }
+
+ .cta-phone:hover {
+     text-decoration: underline;
+ }
+
+
+.main-footer {
+  background: #d9dfdf;
+}
+
+.footer-title {
+  color: #0b6fbf;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.main-footer p,
+.main-footer a {
+  /* color: #000; */
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.main-footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-links li {
+  margin-bottom: 6px;
+}
+
+.footer-links a,
+.footer-links p a{
+  color: #0b6fbf;
+}
+
+.footer-bottom {
+  background: #6f6f6f;
+}
+
+.footer-bottom .privacy-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-bottom .privacy-link:hover {
+  text-decoration: underline;
+}
